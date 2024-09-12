@@ -1,0 +1,15 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++-13",
+      "-std=c++20",
+      "-c",
+      "-o",
+      "obj/main.o",
+      "main.cpp"
+    ],
+    "directory": "/home/ray/code/unary-op-test",
+    "file": "/home/ray/code/unary-op-test/main.cpp",
+    "output": "/home/ray/code/unary-op-test/obj/main.o"
+  }
+]

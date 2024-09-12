@@ -1,0 +1,15 @@
+##[pylyzer] failed /home/ray/code/sensor-sim/enumerate.py 1723170503 399
+.___v_desugar_1: Never
+.listdir: Never
+.IIO_PATH: {"/sys/bus/iio/devices/"}
+.Sensor: ClassType
+.Sensor.type: Never
+.Sensor.__call__: (Type: Str) -> enumerate.Sensor
+
+.Sensor3D: ClassType
+enumerate = pyimport "enumerate"
+.Sensor3D <: enumerate.Sensor
+.Sensor3D.__call__: () -> enumerate.Sensor3D
+
+.sensor_types: List!({"accel", "prox", "gyro", "anglvel", "magn", "temp", "press"}, 7)
+.enumerate: () -> NoneType
